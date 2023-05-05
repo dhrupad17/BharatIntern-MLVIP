@@ -1,0 +1,17 @@
+Today I am working on a House-Price Prediction Project
+
+Steps
+------
+
+Model Building
+===============
+
+1) Taken Bengaluru House Price Dataset from Kaggle
+2) After the boiler's steps in jupyter notebook I have performed value counts on each column
+3) Checked for null values,dropped columns and filled null with some apt values as required
+4) Now converted the range of values to fixed columns 
+5) Calculated price_per_sqft as new column
+6) We have to reduce location values as it has so many counts
+7) If location count <=10 make it to other
+8) Now removing outliers
+9) 
